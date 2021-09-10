@@ -47,6 +47,9 @@ docker exec -it web bash
 # make laravel project
 laravel new leopard 
 
+# * If a warning is displayed...
+composer self-update --2
+
 # /var/www/leopard/leopard -> /var/www/leopard
 # because document root is /var/www/leopard/public
 cd leopard
